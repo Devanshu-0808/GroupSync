@@ -144,4 +144,5 @@
 Deploy the application to your preferred hosting service.
 
 For Frontend - Vercel
+
 For Backend - Railway
