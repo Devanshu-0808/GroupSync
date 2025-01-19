@@ -1,0 +1,13 @@
+version: '3.8'
+
+services:
+  demo:
+    build: .
+    ports:
+      - "8001:8001"
+    networks:
+      - demo-network
+
+networks:
+  demo-network:
+    driver: bridge
